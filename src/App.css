@@ -1,0 +1,41 @@
+.sticky-wrapper {
+    position: relative;
+    z-index: 9999;
+}
+
+.sticky-wrapper.is-sticky .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.is-sticky,
+.is-sticky .navbar .container {
+    background: #ffffff;
+    box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%);
+}
+
+.is-sticky .navbar-brand,
+.is-sticky .navbar-brand:hover {
+    color: #000000;
+}
+
+.is-sticky .navbar-nav .nav-link {
+    color: #717275;
+}
+
+.sticky-wrapper.is-sticky .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+}
