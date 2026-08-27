@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import './APP.css'
+import "./app.css";
 
 function App() 
 {
