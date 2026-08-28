@@ -608,7 +608,8 @@ strong {
 -----------------------------------------*/
 
 .clients-item-height {
-	height: 120px;
+	height: 60px;
+  width: 130px;
 }
 
 .clients-image {

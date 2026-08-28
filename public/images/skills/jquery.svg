@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 120">
+  <rect width="320" height="120" rx="20" fill="#0769AD"/>
+  <path d="M42 40c4 28 20 43 49 45-20 8-47-3-56-24-4-9-4-15-3-21zm17-10c5 20 17 31 38 34-16 6-34-2-42-18-3-7-2-11 4-16z" fill="#fff"/>
+  <text x="205" y="76" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" fill="#fff">jQuery</text>
+</svg>

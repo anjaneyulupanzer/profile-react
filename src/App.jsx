@@ -25,7 +25,7 @@ function App()
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
           </button>
-          <a href="/" className="navbar-brand mx-auto mx-lg-0">Part Time - Freelancer Work</a>
+          <a href="/" className="navbar-brand mx-auto mx-lg-0">Software Developer</a>
             <div className="d-flex align-items-center d-lg-none">
                 <i className="navbar-icon bi-telephone-plus me-3"></i>
                 <a className="custom-btn btn" href="#section_5">
@@ -43,7 +43,7 @@ function App()
                       <li className="nav-item">
                           <a className="nav-link click-scroll" href="#section_3">Services</a>
                       </li>
-                      <li className="nav-item">
+                      <li className="nav-item d-none">
                           <a className="nav-link click-scroll" href="#section_4">Projects</a>
                       </li>
                       <li className="nav-item">
@@ -70,7 +70,7 @@ function App()
                                 <img src="/images/happy-bearded-young-man.jpg" className="avatar-image avatar-image-large img-fluid" alt=""/>
                                 <h1 className="hero-title ms-3 mb-0">Hello Friends..!</h1>
                             </div>
-                            <h2 className="mb-4">I’m available for freelancer work.</h2>
+                            <h2 className="mb-4">I’m available for part-full time work.</h2>
                             <p className="mb-4"><a className="custom-btn btn custom-link" href="#section_2">Let's begin</a></p>
                         </div>
                     </div>
@@ -89,7 +89,14 @@ function App()
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6 col-12">
-                        <img src="/images/couple-working-from-home-together-sofa.jpg" className="about-image img-fluid" alt=""/>
+                        <div className="row">
+                            <div className="col-lg-6">
+                                <img src="/images/white-desk-work-study-aesthetics.jpg" className="about-image img-fluid" alt=""/>      
+                            </div>
+                            <div className="col-lg-6">
+                                <img src="/images/skills/fullstacktech.png" className="fullstacktech"/>
+                            </div>
+                        </div>
                     </div>
                     <div className="col-lg-6 col-12 mt-5 mt-lg-0">
                         <div className="about-thumb">
@@ -99,10 +106,10 @@ function App()
                             </div>
                             <h3 className="pt-2 mb-3">A Little Bit About Me</h3>
                         <p>
-                            This one-page HTML portfolio is provided by <a href="https://templatemo.com" target="_blank">TemplateMo</a>. This layout is based on Bootstrap v5.1.3 CSS and JS libraries. Image credits go to <a href="https://unsplash.com" target="_blank">Unsplash</a> and <a href="https://freepik.com" target="_blank">FreePik</a> for images used in this page.
+                            PHP Developer with professional experience in designing and implementing web applications using Laravel, CodeIgniter, Node.js, MySQL, and jQuery. Demonstrated ability to collaborate effectively with cross-functional teams to meet project goals.
                         </p>
                         <p>
-                            You are allowed to use this template for your websites. You are not allowed to redistribute the template ZIP file on any other website. Please <a href="https://templatemo.com/contact" target="_blank">contact us</a> for more info.
+                            8 years of experience PHP/Laravel Developer in designing and implementing web applications using  Laravel, CodeIgniter, Node.js, MySQL, and jQuery. Proven track record of collaborating with cross-functional teams to enhance project outcomes and streamline development processes. Dedicated to delivering high-quality solutions while maintaining a focus on continuous improvement.
                         </p>
                         </div>
                     </div>
@@ -172,20 +179,95 @@ function App()
                     <div className="col-lg-12 col-12">
                         <h3 className="text-center mb-5">Skills</h3>
                     </div>
-                    <div className="col-lg-2 col-4 ms-auto clients-item-height">
-                        <img src="/images/clients/cachet.svg" className="clients-image img-fluid" alt=""/>
+                    <div className="col-lg-1 col-4 ms-auto clients-item-height">
+                        <img src="/images/skills/php.svg" className="clients-image img-fluid" alt="PHP"/>
                     </div>
-                    <div className="col-lg-2 col-4 clients-item-height">
-                        <img src="/images/clients/guitar-center.svg" className="clients-image img-fluid" alt=""/>
+                    <div className="col-lg-1 col-4 clients-item-height">
+                        <img src="/images/skills/laravel.svg" className="clients-image img-fluid" alt="Laravel"/>
                     </div>
-                    <div className="col-lg-2 col-4 clients-item-height">
-                        <img src="/images/clients/tokico.svg" className="clients-image img-fluid" alt=""/>
+                    <div className="col-lg-1 col-4 me-auto clients-item-height">
+                        <img src="/images/skills/react.svg" className="clients-image img-fluid" alt="React"/>
                     </div>
-                    <div className="col-lg-2 col-4 clients-item-height">
-                        <img src="/images/clients/shopify.svg" className="clients-image img-fluid" alt=""/>
+                    <div className="col-lg-1 col-4 clients-item-height">
+                        <img src="/images/skills/jquery.svg" className="clients-image img-fluid" alt="JQuery"/>
                     </div>
-                    <div className="col-lg-2 col-4 me-auto clients-item-height">
-                        <img src="/images/clients/profil-rejser.svg" className="clients-image img-fluid" alt=""/>
+                    <div className="col-lg-1 col-4 clients-item-height">
+                        <img src="/images/skills/mysql.svg" className="clients-image img-fluid" alt="MySql"/>
+                    </div>
+                    <div className="col-lg-1 col-4 me-auto clients-item-height">
+                        <img src="/images/skills/mongodb.svg" className="clients-image img-fluid" alt="Mongodb"/>
+                    </div>
+                    <div className="col-lg-1 col-4 me-auto clients-item-height">
+                        <img src="/images/skills/javascript.svg" className="clients-image img-fluid" alt="Javascript"/>
+                    </div>
+                    <div className="col-lg-1 col-4 me-auto clients-item-height">
+                        <img src="/images/skills/codeigniter3.svg" className="clients-image img-fluid" alt="Codeigniter3"/>
+                    </div>
+                    <div className="col-lg-1 col-4 me-auto clients-item-height">
+                        <img src="/images/skills/expressjs.svg" className="clients-image img-fluid" alt="ExpressJs"/>
+                    </div>
+                    <div className="col-lg-1 col-4 me-auto clients-item-height">
+                        <img src="/images/skills/nodejs.svg" className="clients-image img-fluid" alt="NodeJs"/>
+                    </div>
+                    <div className="col-lg-1 col-4 me-auto clients-item-height">
+                        <img src="/images/skills/ajax.svg" className="clients-image img-fluid" alt="Ajax"/>
+                    </div>
+                    <div className="col-lg-1 col-4 me-auto clients-item-height">
+                        <img src="/images/skills/aws_s3.svg" className="clients-image img-fluid" alt="AWS"/>
+                    </div>
+                    <div className="col-lg-1 col-4 me-auto clients-item-height">
+                        <img src="/images/skills/aws_web_services.svg" className="clients-image img-fluid" alt="AWS Web Serives"/>
+                    </div>
+                    <div className="col-lg-1 col-4 me-auto clients-item-height">
+                        <img src="/images/skills/bitbucket.svg" className="clients-image img-fluid" alt="Bitbucket"/>
+                    </div>
+                    <div className="col-lg-1 col-4 me-auto clients-item-height">
+                        <img src="/images/skills/bootstrap.svg" className="clients-image img-fluid" alt="Bootstrap"/>
+                    </div>
+                    <div className="col-lg-1 col-4 me-auto clients-item-height">
+                        <img src="/images/skills/core_php.svg" className="clients-image img-fluid" alt="Core PHP"/>
+                    </div>
+                    <div className="col-lg-1 col-4 me-auto clients-item-height">
+                        <img src="/images/skills/database_design.svg" className="clients-image img-fluid" alt="Database Design"/>
+                    </div>
+                    <div className="col-lg-1 col-4 me-auto clients-item-height">
+                        <img src="/images/skills/elasticsearch.svg" className="clients-image img-fluid" alt="ElasticSearch"/>
+                    </div>
+                    <div className="col-lg-1 col-4 me-auto clients-item-height">
+                        <img src="/images/skills/github.svg" className="clients-image img-fluid" alt="Github"/>
+                    </div>
+                    <div className="col-lg-1 col-4 me-auto clients-item-height">
+                        <img src="/images/skills/html.svg" className="clients-image img-fluid" alt="HTML5"/>
+                    </div>
+                    <div className="col-lg-1 col-4 me-auto clients-item-height">
+                        <img src="/images/skills/fullstack-tech.svg" className="clients-image img-fluid" alt="Fullstack Tech"/>
+                    </div>
+                    <div className="col-lg-1 col-4 me-auto clients-item-height">
+                        <img src="/images/skills/netbeans.svg" className="clients-image img-fluid" alt="Netbeans"/>
+                    </div>
+                    <div className="col-lg-1 col-4 me-auto clients-item-height">
+                        <img src="/images/skills/restful_apis.svg" className="clients-image img-fluid" alt="Rest API's"/>
+                    </div>
+                    <div className="col-lg-1 col-4 me-auto clients-item-height">
+                        <img src="/images/skills/third_party_api_integration.svg" className="clients-image img-fluid" alt="Third Party Api Integration"/>
+                    </div>
+                    <div className="col-lg-1 col-4 me-auto clients-item-height">
+                        <img src="/images/skills/third_party_web_services.svg" className="clients-image img-fluid" alt="Third Party Web Services"/>
+                    </div>
+                    <div className="col-lg-1 col-4 me-auto clients-item-height">
+                        <img src="/images/skills/ubuntu.svg" className="clients-image img-fluid" alt="Ubuntu"/>
+                    </div>
+                    <div className="col-lg-1 col-4 me-auto clients-item-height">
+                        <img src="/images/skills/vscode.svg" className="clients-image img-fluid" alt="VSCode"/>
+                    </div>
+                    <div className="col-lg-1 col-4 me-auto clients-item-height">
+                        <img src="/images/skills/web_development.svg" className="clients-image img-fluid" alt="Web Development"/>
+                    </div>
+                    <div className="col-lg-1 col-4 me-auto clients-item-height">
+                        <img src="/images/skills/windows.svg" className="clients-image img-fluid" alt="Windows"/>
+                    </div>
+                    <div className="col-lg-1 col-4 me-auto clients-item-height">
+                        <img src="/images/skills/query_optimization.svg" className="clients-image img-fluid" alt="Windows"/>
                     </div>
                 </div>
             </div>
@@ -204,8 +286,8 @@ function App()
                                 <div className="services-thumb">
                                     <div className="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
                                         <h3 className="mb-0">Websites Development</h3>
-                                        <div className="services-price-wrap ms-auto">
-                                            <p className="services-price-text mb-0">$2,400</p>
+                                        <div className="services-price-wrap ms-auto d-none">
+                                            <p className="services-price-text mb-0"></p>
                                             <div className="services-price-overlay"></div>
                                         </div>
                                     </div>
@@ -220,7 +302,7 @@ function App()
                                 <div className="services-thumb services-thumb-up">
                                     <div className="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
                                         <h3 className="mb-0">Bug Fixes</h3>
-                                        <div className="services-price-wrap ms-auto">
+                                        <div className="services-price-wrap ms-auto d-none">
                                             <p className="services-price-text mb-0"></p>
                                             <div className="services-price-overlay"></div>
                                         </div>
@@ -236,7 +318,7 @@ function App()
                                 <div className="services-thumb">
                                     <div className="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
                                         <h3 className="mb-0">E-commerce Development</h3>
-                                        <div className="services-price-wrap ms-auto">
+                                        <div className="services-price-wrap ms-auto d-none">
                                             <p className="services-price-text mb-0"></p>
                                             <div className="services-price-overlay"></div>
                                         </div>
@@ -252,7 +334,7 @@ function App()
                                 <div className="services-thumb services-thumb-up">
                                     <div className="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
                                         <h3 className="mb-0">Web Design</h3>
-                                        <div className="services-price-wrap ms-auto">
+                                        <div className="services-price-wrap ms-auto d-none">
                                             <p className="services-price-text mb-0"></p>
                                             <div className="services-price-overlay"></div>
                                         </div>
@@ -268,7 +350,7 @@ function App()
                                 <div className="services-thumb services-thumb-up">
                                     <div className="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
                                         <h3 className="mb-0">Third-party API Integration</h3>
-                                        <div className="services-price-wrap ms-auto">
+                                        <div className="services-price-wrap ms-auto d-none">
                                             <p className="services-price-text mb-0"></p>
                                             <div className="services-price-overlay"></div>
                                         </div>
@@ -284,7 +366,7 @@ function App()
                                 <div className="services-thumb services-thumb-up">
                                     <div className="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
                                         <h3 className="mb-0">Rest API's Integration</h3>
-                                        <div className="services-price-wrap ms-auto">
+                                        <div className="services-price-wrap ms-auto d-none">
                                             <p className="services-price-text mb-0"></p>
                                             <div className="services-price-overlay"></div>
                                         </div>
@@ -302,7 +384,7 @@ function App()
             </div>
         </section>
 
-        <section className="projects section-padding" id="section_4">
+        <section className="projects section-padding d-none" id="section_4">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-8 col-md-8 col-12 ms-auto">
@@ -363,42 +445,42 @@ function App()
                         <div className="contact-info contact-info-border-start d-flex flex-column">
                             <strong className="site-footer-title d-block mb-3">Services</strong>
                             <ul className="footer-menu">
-                                <li className="footer-menu-item"><a href="#" className="footer-menu-link">Websites</a></li>
-                                <li className="footer-menu-item"><a href="#" className="footer-menu-link">Branding</a></li>
-                                <li className="footer-menu-item"><a href="#" className="footer-menu-link">Ecommerce</a></li>
-                                <li className="footer-menu-item"><a href="#" className="footer-menu-link">SEO</a></li>
+                                <li className="footer-menu-item"><a href="/" className="footer-menu-link">Websites Development</a></li>
+                                <li className="footer-menu-item"><a href="/" className="footer-menu-link">Bug Fixes</a></li>
+                                <li className="footer-menu-item"><a href="/" className="footer-menu-link">Ecommerce</a></li>
+                                <li className="footer-menu-item"><a href="/" className="footer-menu-link">Web Design</a></li>
                             </ul>
                             <strong className="site-footer-title d-block mt-4 mb-3">Stay connected</strong>
                             <ul className="social-icon">
-                                <li className="social-icon-item"><a href="https://twitter.com/minthu" className="social-icon-link bi-twitter"></a></li>
-                                <li className="social-icon-item"><a href="#" className="social-icon-link bi-instagram"></a></li>
-                                <li className="social-icon-item"><a href="#" className="social-icon-link bi-pinterest"></a></li>
-                                <li className="social-icon-item"><a href="https://www.youtube.com/templatemo" className="social-icon-link bi-youtube"></a></li>
+                                <li className="social-icon-item"><a href="/" className="social-icon-link bi-twitter"></a></li>
+                                <li className="social-icon-item"><a href="/" className="social-icon-link bi-instagram"></a></li>
+                                <li className="social-icon-item"><a href="/" className="social-icon-link bi-pinterest"></a></li>
+                                <li className="social-icon-item"><a href="/" className="social-icon-link bi-youtube"></a></li>
                             </ul>
                             <strong className="site-footer-title d-block mt-4 mb-3">Start a project</strong>
-                            <p className="mb-0">I’m available for freelance projects</p>
+                            <p className="mb-0">I’m available for part time projects</p>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6 col-12 ps-lg-0">
                         <div className="contact-info d-flex flex-column">
                             <strong className="site-footer-title d-block mb-3">About</strong>
-                            <p className="mb-2">Joshua is a professional web developer. Feel free to get in touch with me.</p>
+                            <p className="mb-2">PHP Developer with in designing and implementing web applications using Laravel, Node.js, MySQL, and jQuery. Demonstrated ability to collaborate effectively with cross-functional teams to meet project goals.</p>
                             <strong className="site-footer-title d-block mt-4 mb-3">Email</strong>
                             <p>
-                                <a href="mailto:hello@josh.design">
-                                    hello@josh.design
+                                <a href="mailto:anjaneyulugulla33@gmail.com">
+                                    anjaneyulugulla33@gmail.com
                                 </a>
                             </p>
                             <strong className="site-footer-title d-block mt-4 mb-3">Call</strong>
                             <p className="mb-0">
-                                <a href="tel: 120-240-9600">
-                                    120-240-9600
+                                <a href="tel:801-970-4808">
+                                    801-970-4808
                                 </a>
                             </p>
                         </div>
                     </div>
                           
-                    <div className="col-lg-6 col-12 mt-5 mt-lg-0">
+                    <div className="col-lg-6 col-12 mt-5 mt-lg-0 d-none">
                         <form action="#" method="get" className="custom-form contact-form" role="form">
                             <div className="row">
                                 <div className="col-lg-6 col-md-6 col-12">
@@ -418,7 +500,7 @@ function App()
                                         <input name="website" type="checkbox" className="form-check-input" id="inlineCheckbox1" value="1"/>
                                         <label className="form-check-label" htmlFor="inlineCheckbox1">
                                             <i className="bi-globe form-check-icon"></i>
-                                            <span className="form-check-label-text">Websites</span>
+                                            <span className="form-check-label-text">Websites Development</span>
                                         </label>
                                     </div>
                                 </div>
@@ -427,7 +509,7 @@ function App()
                                         <input name="branding" type="checkbox" className="form-check-input" id="inlineCheckbox2" value="1"/>
                                         <label className="form-check-label" htmlFor="inlineCheckbox2">
                                             <i className="bi-lightbulb form-check-icon"></i>
-                                            <span className="form-check-label-text">Branding</span>
+                                            <span className="form-check-label-text">Bug Fixes</span>
                                         </label>
                                     </div>
                                 </div>
@@ -436,7 +518,7 @@ function App()
                                         <input name="ecommerce" type="checkbox" className="form-check-input" id="inlineCheckbox3" value="1"/>
                                         <label className="form-check-label" htmlFor="inlineCheckbox3">
                                             <i className="bi-phone form-check-icon"></i>
-                                            <span className="form-check-label-text">Ecommerce</span>
+                                            <span className="form-check-label-text">Web Design</span>
                                         </label>
                                     </div>
                                 </div>
@@ -445,7 +527,7 @@ function App()
                                         <input name="seo" type="checkbox" className="form-check-input" id="inlineCheckbox4" value="1"/>
                                         <label className="form-check-label" htmlFor="inlineCheckbox4">
                                             <i className="bi-google form-check-icon"></i>
-                                            <span className="form-check-label-text">SEO</span>
+                                            <span className="form-check-label-text">E-commerce</span>
                                         </label>
                                     </div>
                                 </div>
@@ -471,9 +553,7 @@ function App()
                 <div className="col-lg-12 col-12">
                     <div className="copyright-text-wrap">
                         <p className="mb-0">
-                            <span className="copyright-text">Copyright © 2036 <a href="#">First Portfolio</a> Company. All rights reserved.</span>
-                            Design: 
-                            <a rel="sponsored" href="https://templatemo.com" target="_blank">TemplateMo</a>
+                            <span className="copyright-text">Copyright © 2026 <a href="/">Portfolio</a> All rights reserved.</span>
                         </p>
                     </div>
                 </div>
