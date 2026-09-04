@@ -12,6 +12,17 @@ function App()
             window.removeEventListener('scroll', handleScroll)
         }
     }, [])
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth <= 767);
+        };
+
+        window.addEventListener("resize", handleResize);
+
+        return () => {
+            window.removeEventListener("resize", handleResize);
+        };
+    }, []);
   return (
     <>
       <section className="preloader">
