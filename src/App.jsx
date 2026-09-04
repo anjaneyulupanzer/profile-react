@@ -174,104 +174,135 @@ function App()
         </section>
 
         <section className="clients section-padding">
-            <div className="container">
-                <div className="row align-items-center">
-                    <div className="col-lg-12 col-12">
-                        <h3 className="text-center mb-5">Skills</h3>
-                    </div>
-                    <div className="col-lg-1 col-4 ms-auto clients-item-height">
-                        <img src="/images/skills/php.svg" className="clients-image img-fluid" alt="PHP"/>
-                    </div>
-                    <div className="col-lg-1 col-4 clients-item-height">
-                        <img src="/images/skills/laravel.svg" className="clients-image img-fluid" alt="Laravel"/>
-                    </div>
-                    <div className="col-lg-1 col-4 me-auto clients-item-height">
-                        <img src="/images/skills/react.svg" className="clients-image img-fluid" alt="React"/>
-                    </div>
-                    <div className="col-lg-1 col-4 clients-item-height">
-                        <img src="/images/skills/jquery.svg" className="clients-image img-fluid" alt="JQuery"/>
-                    </div>
-                    <div className="col-lg-1 col-4 clients-item-height">
-                        <img src="/images/skills/mysql.svg" className="clients-image img-fluid" alt="MySql"/>
-                    </div>
-                    <div className="col-lg-1 col-4 me-auto clients-item-height">
-                        <img src="/images/skills/mongodb.svg" className="clients-image img-fluid" alt="Mongodb"/>
-                    </div>
-                    <div className="col-lg-1 col-4 me-auto clients-item-height">
-                        <img src="/images/skills/javascript.svg" className="clients-image img-fluid" alt="Javascript"/>
-                    </div>
-                    <div className="col-lg-1 col-4 me-auto clients-item-height">
-                        <img src="/images/skills/codeigniter3.svg" className="clients-image img-fluid" alt="Codeigniter3"/>
-                    </div>
-                    <div className="col-lg-1 col-4 me-auto clients-item-height">
-                        <img src="/images/skills/expressjs.svg" className="clients-image img-fluid" alt="ExpressJs"/>
-                    </div>
-                    <div className="col-lg-1 col-4 me-auto clients-item-height">
-                        <img src="/images/skills/nodejs.svg" className="clients-image img-fluid" alt="NodeJs"/>
-                    </div>
-                    <div className="col-lg-1 col-4 me-auto clients-item-height">
-                        <img src="/images/skills/ajax.svg" className="clients-image img-fluid" alt="Ajax"/>
-                    </div>
-                    <div className="col-lg-1 col-4 me-auto clients-item-height">
-                        <img src="/images/skills/aws_s3.svg" className="clients-image img-fluid" alt="AWS"/>
-                    </div>
-                    <div className="col-lg-1 col-4 me-auto clients-item-height">
-                        <img src="/images/skills/aws_web_services.svg" className="clients-image img-fluid" alt="AWS Web Serives"/>
-                    </div>
-                    <div className="col-lg-1 col-4 me-auto clients-item-height">
-                        <img src="/images/skills/bitbucket.svg" className="clients-image img-fluid" alt="Bitbucket"/>
-                    </div>
-                    <div className="col-lg-1 col-4 me-auto clients-item-height">
-                        <img src="/images/skills/bootstrap.svg" className="clients-image img-fluid" alt="Bootstrap"/>
-                    </div>
-                    <div className="col-lg-1 col-4 me-auto clients-item-height">
-                        <img src="/images/skills/core_php.svg" className="clients-image img-fluid" alt="Core PHP"/>
-                    </div>
-                    <div className="col-lg-1 col-4 me-auto clients-item-height">
-                        <img src="/images/skills/database_design.svg" className="clients-image img-fluid" alt="Database Design"/>
-                    </div>
-                    <div className="col-lg-1 col-4 me-auto clients-item-height">
-                        <img src="/images/skills/elasticsearch.svg" className="clients-image img-fluid" alt="ElasticSearch"/>
-                    </div>
-                    <div className="col-lg-1 col-4 me-auto clients-item-height">
-                        <img src="/images/skills/github.svg" className="clients-image img-fluid" alt="Github"/>
-                    </div>
-                    <div className="col-lg-1 col-4 me-auto clients-item-height">
-                        <img src="/images/skills/html.svg" className="clients-image img-fluid" alt="HTML5"/>
-                    </div>
-                    <div className="col-lg-1 col-4 me-auto clients-item-height">
-                        <img src="/images/skills/fullstack-tech.svg" className="clients-image img-fluid" alt="Fullstack Tech"/>
-                    </div>
-                    <div className="col-lg-1 col-4 me-auto clients-item-height">
-                        <img src="/images/skills/netbeans.svg" className="clients-image img-fluid" alt="Netbeans"/>
-                    </div>
-                    <div className="col-lg-1 col-4 me-auto clients-item-height">
-                        <img src="/images/skills/restful_apis.svg" className="clients-image img-fluid" alt="Rest API's"/>
-                    </div>
-                    <div className="col-lg-1 col-4 me-auto clients-item-height">
-                        <img src="/images/skills/third_party_api_integration.svg" className="clients-image img-fluid" alt="Third Party Api Integration"/>
-                    </div>
-                    <div className="col-lg-1 col-4 me-auto clients-item-height">
-                        <img src="/images/skills/third_party_web_services.svg" className="clients-image img-fluid" alt="Third Party Web Services"/>
-                    </div>
-                    <div className="col-lg-1 col-4 me-auto clients-item-height">
-                        <img src="/images/skills/ubuntu.svg" className="clients-image img-fluid" alt="Ubuntu"/>
-                    </div>
-                    <div className="col-lg-1 col-4 me-auto clients-item-height">
-                        <img src="/images/skills/vscode.svg" className="clients-image img-fluid" alt="VSCode"/>
-                    </div>
-                    <div className="col-lg-1 col-4 me-auto clients-item-height">
-                        <img src="/images/skills/web_development.svg" className="clients-image img-fluid" alt="Web Development"/>
-                    </div>
-                    <div className="col-lg-1 col-4 me-auto clients-item-height">
-                        <img src="/images/skills/windows.svg" className="clients-image img-fluid" alt="Windows"/>
-                    </div>
-                    <div className="col-lg-1 col-4 me-auto clients-item-height">
-                        <img src="/images/skills/query_optimization.svg" className="clients-image img-fluid" alt="Windows"/>
-                    </div>
-                </div>
+    <div className="container">
+
+        <h3 className="text-center mb-5">Skills</h3>
+
+        <div className="row row-cols-3 row-cols-md-4 row-cols-lg-6 g-4 justify-content-center">
+
+            <div className="col skill-item">
+                <img src="/images/skills/php.svg" className="clients-image img-fluid" alt="PHP" />
             </div>
-        </section>
+
+            <div className="col skill-item">
+                <img src="/images/skills/laravel.svg" className="clients-image img-fluid" alt="Laravel" />
+            </div>
+
+            <div className="col skill-item">
+                <img src="/images/skills/react.svg" className="clients-image img-fluid" alt="React" />
+            </div>
+
+            <div className="col skill-item">
+                <img src="/images/skills/jquery.svg" className="clients-image img-fluid" alt="JQuery" />
+            </div>
+
+            <div className="col skill-item">
+                <img src="/images/skills/mysql.svg" className="clients-image img-fluid" alt="MySQL" />
+            </div>
+
+            <div className="col skill-item">
+                <img src="/images/skills/mongodb.svg" className="clients-image img-fluid" alt="MongoDB" />
+            </div>
+
+            <div className="col skill-item">
+                <img src="/images/skills/javascript.svg" className="clients-image img-fluid" alt="JavaScript" />
+            </div>
+
+            <div className="col skill-item">
+                <img src="/images/skills/codeigniter3.svg" className="clients-image img-fluid" alt="CodeIgniter 3" />
+            </div>
+
+            <div className="col skill-item">
+                <img src="/images/skills/expressjs.svg" className="clients-image img-fluid" alt="ExpressJS" />
+            </div>
+
+            <div className="col skill-item">
+                <img src="/images/skills/nodejs.svg" className="clients-image img-fluid" alt="NodeJS" />
+            </div>
+
+            <div className="col skill-item">
+                <img src="/images/skills/ajax.svg" className="clients-image img-fluid" alt="Ajax" />
+            </div>
+
+            <div className="col skill-item">
+                <img src="/images/skills/aws_s3.svg" className="clients-image img-fluid" alt="AWS S3" />
+            </div>
+
+            <div className="col skill-item">
+                <img src="/images/skills/aws_web_services.svg" className="clients-image img-fluid" alt="AWS Web Services" />
+            </div>
+
+            <div className="col skill-item">
+                <img src="/images/skills/bitbucket.svg" className="clients-image img-fluid" alt="Bitbucket" />
+            </div>
+
+            <div className="col skill-item">
+                <img src="/images/skills/bootstrap.svg" className="clients-image img-fluid" alt="Bootstrap" />
+            </div>
+
+            <div className="col skill-item">
+                <img src="/images/skills/core_php.svg" className="clients-image img-fluid" alt="Core PHP" />
+            </div>
+
+            <div className="col skill-item">
+                <img src="/images/skills/database_design.svg" className="clients-image img-fluid" alt="Database Design" />
+            </div>
+
+            <div className="col skill-item">
+                <img src="/images/skills/elasticsearch.svg" className="clients-image img-fluid" alt="Elasticsearch" />
+            </div>
+
+            <div className="col skill-item">
+                <img src="/images/skills/github.svg" className="clients-image img-fluid" alt="GitHub" />
+            </div>
+
+            <div className="col skill-item">
+                <img src="/images/skills/html.svg" className="clients-image img-fluid" alt="HTML5" />
+            </div>
+
+            <div className="col skill-item">
+                <img src="/images/skills/fullstack-tech.svg" className="clients-image img-fluid" alt="Full Stack" />
+            </div>
+
+            <div className="col skill-item">
+                <img src="/images/skills/netbeans.svg" className="clients-image img-fluid" alt="NetBeans" />
+            </div>
+
+            <div className="col skill-item">
+                <img src="/images/skills/restful_apis.svg" className="clients-image img-fluid" alt="REST APIs" />
+            </div>
+
+            <div className="col skill-item">
+                <img src="/images/skills/third_party_api_integration.svg" className="clients-image img-fluid" alt="Third Party API Integration" />
+            </div>
+
+            <div className="col skill-item">
+                <img src="/images/skills/third_party_web_services.svg" className="clients-image img-fluid" alt="Third Party Web Services" />
+            </div>
+
+            <div className="col skill-item">
+                <img src="/images/skills/ubuntu.svg" className="clients-image img-fluid" alt="Ubuntu" />
+            </div>
+
+            <div className="col skill-item">
+                <img src="/images/skills/vscode.svg" className="clients-image img-fluid" alt="VS Code" />
+            </div>
+
+            <div className="col skill-item">
+                <img src="/images/skills/web_development.svg" className="clients-image img-fluid" alt="Web Development" />
+            </div>
+
+            <div className="col skill-item">
+                <img src="/images/skills/windows.svg" className="clients-image img-fluid" alt="Windows" />
+            </div>
+
+            <div className="col skill-item">
+                <img src="/images/skills/query_optimization.svg" className="clients-image img-fluid" alt="Query Optimization" />
+            </div>
+
+        </div>
+    </div>
+</section>
 
         <section className="services section-padding" id="section_3">
             <div className="container">
@@ -291,8 +322,21 @@ function App()
                                             <div className="services-price-overlay"></div>
                                         </div>
                                     </div>
-                                    <p>You may want to explore Too CSS for great collection of free HTML CSS templates.</p>
-                                    <a href="#" className="custom-btn custom-border-btn btn mt-3">Discover More</a>
+                                    <p>We create modern, responsive, and high-performing websites designed to deliver a smooth user experience across all devices. Our website development services focus on clean design, fast performance, security, scalability, and easy management.</p>
+                                    <ul>
+                                        <li>Custom Website Development</li>
+                                        <li>Laravel, PHP & JavaScript Development</li>
+                                        <li>Business & Corporate Websites</li>
+                                        <li>Responsive Web Design</li>
+                                        <li>Content Management Systems (CMS)</li>
+                                        <li>E-commerce Website Development</li>
+                                        <li>API & Third-Party Integrations</li>
+                                        <li>Website Redesign & Modernization</li>
+                                        <li>Performance & Speed Optimization</li>
+                                        <li>Landing Page Development</li>
+                                        <li>Search Engine Optimization (SEO)</li>
+                                    </ul>
+                                    <a className="custom-btn custom-border-btn btn mt-3"></a>
                                     <div className="services-icon-wrap d-flex justify-content-center align-items-center">
                                         <i className="services-icon bi-globe"></i>
                                     </div>
@@ -307,8 +351,21 @@ function App()
                                             <div className="services-price-overlay"></div>
                                         </div>
                                     </div>
-                                    <p>You can explore more CSS templates on TemplateMo website by browsing through different tags.</p>
-                                    <a href="#" className="custom-btn custom-border-btn btn mt-3">Discover More</a>
+                                    <p>We identify, troubleshoot, and resolve website and application issues to keep your system running smoothly and reliably. From minor UI glitches to complex backend errors, we provide fast and effective bug-fixing solutions.</p>
+                                    <ul>
+                                        <li>Website Error Fixing</li>
+                                        <li>Frontend & UI Bug Fixes</li>
+                                        <li>Performance Optimization</li>
+                                        <li>Database Error Resolution</li>
+                                        <li>API & Third-Party Integration Fixes</li>
+                                        <li>Backend & Server-Side Issues</li>
+                                        <li>Performance Issue Fixes</li>
+                                        <li>Cross-Browser Compatibility Fixes</li>
+                                        <li>Security Vulnerability Fixes</li>
+                                        <li>Laravel, PHP & JavaScript Bug Fixes</li>
+                                        <li>Application Error Resolution</li>
+                                    </ul>
+                                    <a className="custom-btn custom-border-btn btn mt-3"></a>
                                     <div className="services-icon-wrap d-flex justify-content-center align-items-center">
                                         <i className="services-icon bi-lightbulb"></i>
                                     </div>
@@ -323,10 +380,22 @@ function App()
                                             <div className="services-price-overlay"></div>
                                         </div>
                                     </div>
-                                    <p>If you need a customized ecommerce website for your business, feel free to discuss with me.</p>
-                                    <a href="#" className="custom-btn custom-border-btn btn mt-3">Discover More</a>
+                                    <p>We build secure, scalable, and user-friendly e-commerce websites that make online shopping simple and seamless. Our solutions are designed to improve customer experience, streamline store management, and support business growth.</p>
+                                    <ul>
+                                        <li>Custom E-commerce Website Development</li>
+                                        <li>Product &amp; Category Management</li>
+                                        <li>Shopping Cart &amp; Checkout Development</li>
+                                        <li>Payment Gateway Integration</li>
+                                        <li>Order &amp; Inventory Management</li>
+                                        <li>Customer Account Management</li>
+                                        <li>Coupon &amp; Discount Features</li>
+                                        <li>Shipping &amp; Delivery Integration</li>
+                                        <li>Mobile-Responsive Store Design</li>
+                                        <li>E-commerce Maintenance &amp; Support</li>
+                                    </ul>
+                                    <a className="custom-btn custom-border-btn btn mt-3"></a>
                                     <div className="services-icon-wrap d-flex justify-content-center align-items-center">
-                                        <i className="services-icon bi-phone"></i>
+                                        <i className="services-icon bi-laptop"></i>
                                     </div>
                                 </div>
                             </div>
@@ -339,10 +408,22 @@ function App()
                                             <div className="services-price-overlay"></div>
                                         </div>
                                     </div>
-                                    <p>To list your website first on any search engine, we will work together. First Portfolio is one-page CSS Template for free download.</p>
-                                    <a href="#" className="custom-btn custom-border-btn btn mt-3">Discover More</a>
+                                    <p>We create modern, attractive, and user-friendly website designs that reflect your brand and provide a smooth experience across all devices. Our web design solutions focus on usability, responsiveness, visual appeal, and performance.</p>
+                                    <ul>
+                                        <li>Custom Website Design</li>
+                                        <li>Responsive Web Design</li>
+                                        <li>UI/UX Design</li>
+                                        <li>Landing Page Design</li>
+                                        <li>Business Website Design</li>
+                                        <li>E-commerce Website Design</li>
+                                        <li>Mobile-Friendly Layouts</li>
+                                        <li>Website Redesign</li>
+                                        <li>Cross-Browser Compatibility</li>
+                                        <li>Design Maintenance &amp; Support</li>
+                                    </ul>
+                                    <a className="custom-btn custom-border-btn btn mt-3"></a>
                                     <div className="services-icon-wrap d-flex justify-content-center align-items-center">
-                                        <i className="services-icon bi-google"></i>
+                                        <i className="services-icon bi-webcamp"></i>
                                     </div>
                                 </div>
                             </div>
@@ -355,8 +436,15 @@ function App()
                                             <div className="services-price-overlay"></div>
                                         </div>
                                     </div>
-                                    <p>To list your website first on any search engine, we will work together. First Portfolio is one-page CSS Template for free download.</p>
-                                    <a href="#" className="custom-btn custom-border-btn btn mt-3">Discover More</a>
+                                    <p>We integrate third-party APIs to enhance your website's functionality and provide seamless connectivity with various services and platforms.</p>
+                                    <ul>
+                                        <li>Custom API Development</li>
+                                        <li>Third-Party API Integration</li>
+                                        <li>API Authentication & Security</li>
+                                        <li>Data Validation & Error Handling</li>
+                                        <li>API Documentation & Support</li>
+                                    </ul>
+                                    <a  className="custom-btn custom-border-btn btn mt-3"></a>
                                     <div className="services-icon-wrap d-flex justify-content-center align-items-center">
                                         <i className="services-icon bi-google"></i>
                                     </div>
@@ -371,10 +459,24 @@ function App()
                                             <div className="services-price-overlay"></div>
                                         </div>
                                     </div>
-                                    <p>To list your website first on any search engine, we will work together. First Portfolio is one-page CSS Template for free download.</p>
-                                    <a href="#" className="custom-btn custom-border-btn btn mt-3">Discover More</a>
+                                    <p>We develop and integrate REST APIs to enable smooth communication between your application and external services, ensuring data consistency and real-time updates.</p>
+                                    <ul>
+                                        <li>Custom REST API Development</li>
+                                        <li>Third-Party API Integration</li>
+                                        <li>API Authentication & Security</li>
+                                        <li>Data Validation & Error Handling</li>
+                                        <li>API Documentation & Support</li>
+                                        <li>Performance Optimization & Caching</li>
+                                        <li>Versioning & Maintenance of APIs</li>
+                                        <li>Integration with Frontend & Mobile Applications</li>
+                                        <li>Monitoring & Logging of API Requests</li>
+                                        <li>Scalable API Architecture Design</li>
+                                        <li>Real-Time Data Synchronization</li>
+                                        <li>Cross-Origin Resource Sharing (CORS) Configuration</li>
+                                    </ul>
+                                    <a  className="custom-btn custom-border-btn btn mt-3"></a>
                                     <div className="services-icon-wrap d-flex justify-content-center align-items-center">
-                                        <i className="services-icon bi-google"></i>
+                                        <i className="services-icon bi-sliders"></i>
                                     </div>
                                 </div>
                             </div>

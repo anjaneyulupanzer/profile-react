@@ -43,3 +43,84 @@ html {
     height: 450px;
     width: 320px;
 }
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .service-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
+
+.skill-item {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-item .clients-image {
+    max-width: 100px;
+    max-height: 55px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+
+/* Mobile */
+@media (max-width: 767px) {
+
+    .clients {
+        padding: 40px 10px;
+    }
+
+    .clients h3 {
+        margin-bottom: 30px !important;
+    }
+
+    .skill-item {
+        height: 70px;
+        padding: 5px;
+    }
+
+    .skill-item .clients-image {
+        max-width: 85px;
+        max-height: 45px;
+    }
+}
